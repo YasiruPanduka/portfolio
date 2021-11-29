@@ -169,7 +169,7 @@ body{
 
 .first_subcontainer{
     background-color: none;
-    font-family: 'Consolas';
+    font-family: 'consolas';
     width: 965px;
     height: 230px;
     margin-right: 28px;
@@ -177,7 +177,7 @@ body{
 
 .first_subcontainer p{
     margin-top: 26px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'consolas';
 }
 
