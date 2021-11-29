@@ -170,13 +170,15 @@ body{
 .first_subcontainer{
     background-color: none;
     font-family: 'Consolas';
-    width: 985px;
+    width: 965px;
     height: 230px;
-    margin-right: 10px;
+    margin-right: 28px;
 }
 
 .first_subcontainer p{
     margin-top: 26px;
+    font-size: 14px;
+    font-family: 'consolas';
 }
 
 .second_subContainer{
