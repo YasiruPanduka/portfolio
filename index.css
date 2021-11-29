@@ -38,8 +38,9 @@ body{
 }
 
 .BriefDetails p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "consolas";
     font-size: 15px;
+    font-weight: 600;
 }
 
 
