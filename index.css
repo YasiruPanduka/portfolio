@@ -2,6 +2,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@font-face{
+    font-family: myConsolas;
+    src: url("fonts/CONSOLA.TTF");
+}
+
 .WelcomeHeader{
     background-color: none;
     text-align: center;
@@ -29,7 +34,7 @@ body{
 
 .BriefDetails{
     background-color: none;
-    font-family: "Consolas";
+    font-family: myConsolas;
     /* text-align: center; */
     margin-left: 50px;
     margin-top: 40px;
@@ -38,7 +43,7 @@ body{
 }
 
 .BriefDetails p{
-    font-family: "consolas";
+    font-family: myConsolas;
     font-size: 15px;
     font-weight: 500;
 }
@@ -169,7 +174,7 @@ body{
 
 .first_subcontainer{
     background-color: none;
-    font-family: 'consolas';
+    font-family: myConsolas;
     width: 965px;
     height: 230px;
     margin-right: 28px;
@@ -178,7 +183,7 @@ body{
 .first_subcontainer p{
     margin-top: 26px;
     font-size: 14px;
-    font-family: 'consolas';
+    font-family: myConsolas;
 }
 
 .second_subContainer{
@@ -256,7 +261,7 @@ body{
     
     .BriefDetails{
         background-color: none;
-        font-family: "Consolas";
+        font-family: myConsolas;
         /* text-align: center; */
         margin-left: 10px;
         margin-top: 0px;
@@ -275,7 +280,7 @@ body{
     }
     
     .BriefDetails p{
-        font-family: "consolas";
+        font-family: myConsolas;
         font-size: 15px;
         font-weight: 500;
     }
