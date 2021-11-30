@@ -491,6 +491,7 @@ body{
 
     .secondContainer{
         display: block;
+        margin-bottom: 150px;
     }
 
     .first_subcontainer{
@@ -522,7 +523,6 @@ body{
 
     .languagesIcons{
         font-size: 3.5em;
-        margin-bottom: 150px;
     }
 
 
