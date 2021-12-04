@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainProjects{
+    background-color: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.imageContainer img{
+    width: 400px;
+}
+
+.word h1{
+    text-align: center;
+}
+
+.word button{
+    background-color: black;
+    width: 135px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+
+.word button:hover{
+    background-color: white;
+    border: solid;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+}
