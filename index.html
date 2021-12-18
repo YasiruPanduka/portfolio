@@ -14,12 +14,20 @@
 
     <!--- Background Music-->
     <audio autoplay loop id="backAudio">
-        <!-- <source src="Musics/cinematic-fairy-tale-story-loop-8696.mp3" type="audio/mpeg"> -->
-        <source src="Musics/ambient-piano-amp-strings-10711.mp3" type="audio/mpeg">
-        <source src="Musics/cinematic-chillhop-main-6676.mp3" type="audio/mpeg">
+        <!-- <source src="Musics/cinematic-fairy-tale-story-loop-8696.mp3" type="audio/mp3"> -->
+        <source src="Musics/ambient-piano-amp-strings-10711.mp3" type="audio/mp3">
+        <source src="Musics/cinematic-chillhop-main-6676.mp3" type="audio/mp3">
     </audio>
 
-    <button value="click" id="volumeBtn" onclick="playPause()"><i class="fas fa-volume-down"></i></button>
+    <div class="vlBtn">
+
+        <div id="disk">
+            <i class="fas fa-compact-disc fa-3x fa-spin" style="--fa-animation-duration: 15s;"></i>
+        </div>
+        <button value="click" id="volumeBtn" onclick="playPause()"><i class="fas fa-volume-down fa-2x"></i></button>
+
+    </div>
+    
 
     <div class="WelcomeHeader">
         <!-- <h1>Hey! Welcome to my world!</h1> -->
