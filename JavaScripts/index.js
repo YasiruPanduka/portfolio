@@ -7,7 +7,7 @@ audio.volume = 0.2;
 //Script For Audio Volume Button-->
 var volBtn = document.getElementById('volumeBtn');
 var disk = document.getElementById('disk');
-var count = 1;
+var count = 0;
 
 function playPause(){
     if(count == 0){

@@ -35,7 +35,11 @@ body{
 }
 
 #volumeBtn:hover{
-    background-color: rgb(255, 113, 113);
+    background-color: rgb(255, 174, 174);
+}
+
+#volumeBtn:active{
+    background-color: rgb(255, 0, 0);
 }
 
 
