@@ -6,7 +6,7 @@ audio.volume = 0.19;
 
 //Script For Audio Volume Button-->
 var volBtn = document.getElementById('volumeBtn');
-var count = 0;
+var count = 1;
 
 function playPause(){
     if(count == 0){
