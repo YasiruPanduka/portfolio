@@ -152,8 +152,8 @@ a{
 
     .box{
         display: flex;
-        width: 900px;
-        height: 1500px;
+        width: 800px;
+        height: 1350px;
         margin: auto;
         margin-bottom: 50px;
         justify-content: center;
