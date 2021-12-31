@@ -132,7 +132,47 @@ a{
 
 
 @media only screen and (max-width: 1080px) {
+
+    .ctrlBtns{
+        background-color: none;
+        height: 110px;
+    }
+
+    .profileBtn button{
+        width: 200px;
+        height: 100px;
+        font-size: 2.5em;
+    }
+
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
     .box{
-        
+        display: flex;
+        width: 900px;
+        height: 1500px;
+        margin: auto;
+        margin-bottom: 50px;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .model{
+        height: 1150px;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .category{
+        font-size: 4em;
+    }
+
+    .details p{
+        font-size: 2em;
     }
 }
