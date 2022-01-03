@@ -76,7 +76,7 @@ a{
 @media only screen and (max-width: 1600px) {
 
     .card{
-        width: 519px;
+        width: 534px;
         height: 600px;
         display: block;
     }
@@ -91,8 +91,4 @@ a{
         height: 275px;
         margin: 10px;
     }
-
-    /* .Buttons{
-
-    } */
 }
