@@ -9,7 +9,13 @@
 .NavDiv{
     width: 80%;
     margin: auto;
-    margin-left: 980px;
+    display: flex;
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    right: 0;
 }
 
 .NavDiv button{
@@ -18,4 +24,31 @@
     font-size: 0.9em;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+    .NavDiv{
+        width: 534px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .Nav{
+        background-color: none;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .NavDiv{
+        width: 90%;
+        background-color: none;
+    }
+
+    .cover button{
+        width: 180px;
+        height: 55px;
+        font-size: 1.1em;
+    }
 }

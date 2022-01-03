@@ -27,6 +27,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.23);
+    transition: all 0.3s ease 0s;
 }
 
 .card span{
@@ -75,20 +76,82 @@ a{
 
 @media only screen and (max-width: 1600px) {
 
+    .container{
+        background-color: none;
+        width: 80%;
+    }
+
+    .card img{
+        width: 450px;
+    }
+
+    .content{
+        background-color: none;
+        height: 305px;
+    }
+
+    .content p{
+        font-size: 0.7em;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+
+    .container{
+        background-color: none;
+        width: 80%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+
+    .container{
+        width: 90%;
+    }
     .card{
-        width: 534px;
-        height: 600px;
+        width: 70%;
+        height: 1100px;
         display: block;
+        margin-bottom: 80px;
     }
 
     .card img{
         border-top-right-radius: 10px;;
         border-bottom-left-radius: 0px;
+        width: 100%;
+        margin-left: 5px;
     }
 
     .content{
         background-color: none;
-        height: 275px;
+        height: 620px;
         margin: 10px;
+    }
+
+    .content h2{
+        font-size: 3em;
+    }
+
+    .content span{
+        font-size: 0.5em;
+    }
+
+    .content p{
+        font-size: 1.5em;
+    }
+
+    .Buttons{
+        background-color: none;
+    }
+
+    .Buttons button{
+        width: 180px;
+        height: 55px;
+        margin-right: 20px;
+        font-size: 1.1em;
     }
 }
