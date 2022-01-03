@@ -1,0 +1,21 @@
+.Nav{
+    background-color: none;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+}
+
+.NavDiv{
+    width: 80%;
+    margin: auto;
+    margin-left: 980px;
+}
+
+.NavDiv button{
+    width: 100px;
+    height: 35px;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
