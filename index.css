@@ -382,21 +382,7 @@ body{
 
 
 
-    .FooterContainer{
-        background-color: white;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    }
     
-    
-    .footerDetails{
-        margin-top: 4px;
-        font-size: small;
-    }
 }
 
 
@@ -546,19 +532,5 @@ body{
 
 
 
-    .FooterContainer{
-        background-color: white;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100px;
-        text-align: center;
-    }
     
-    
-    .footerDetails{
-        margin-top: 4px;
-        font-size: 2em;
-    }
 }
