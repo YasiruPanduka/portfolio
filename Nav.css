@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "mySans";
+    src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
 .Nav{
     background-color: none;
     width: 70%;
@@ -23,7 +28,7 @@
     height: 35px;
     font-size: 0.9em;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: mySans;
     margin-left: 20px;font-weight: bold;
     background-color: #FFFFFF;
     border-radius: 5px;

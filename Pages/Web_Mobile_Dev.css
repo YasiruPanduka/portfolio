@@ -1,5 +1,10 @@
 body{
-    background-color:rgb(245, 245, 245);
+    /* background-color:rgb(245, 245, 245); */
+}
+
+@font-face{
+    font-family: "mySans";
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 a{
@@ -63,11 +68,20 @@ a{
     right: 10px;
 }
 
+.gitBtn{
+    background-color: #800080;
+    color: white;
+}
+
+.demBtn{
+    background-color: #229444;
+    color: white;
+}
+
 .content button{
     width: 100px;
     height: 30px;
     font-weight: bold;
-    background-color: #FFFFFF;
     border-radius: 5px;
     border: solid;
     border-width: 2px;
@@ -168,8 +182,7 @@ a{
         margin-right: 20px;
         font-size: 1.1em;
         font-weight: bold;
-        background-color: #FFFFFF;
-        border-radius: 5px;
+        border-radius: 10px;
         border: solid;
         border-width: 2px;
         transition: all 0.3s ease 0s;
@@ -221,8 +234,7 @@ a{
         height: 100px;
         font-size: 2em;
         font-weight: bold;
-        background-color: #FFFFFF;
-        border-radius: 5px;
+        border-radius: 10px;
         border: solid;
         border-width: 2px;
         transition: all 0.3s ease 0s;
